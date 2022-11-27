@@ -391,6 +391,7 @@ img {
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  height: 18rem;
 }
 
 .work_img img {
@@ -400,6 +401,35 @@ img {
 
 .work_img img:hover {
   transform: scale(1.1);
+}
+
+.src{
+  height: 14rem;
+  width: 100%;
+}
+
+.project{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 18px;
+}
+.color{
+  color: black;
+}
+.Code, .Live{
+  height: 2rem;
+  border-radius: 8px;
+  border: 1px solid #4070f4 ;
+  background-color: transparent;
+  outline: none;
+  transition:1s;
+}
+
+.Live:hover{
+  background-color: #4070f4;
+}
+.Code:hover{
+  background-color: #4070f4;
 }
 
 /* Contact */
